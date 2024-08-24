@@ -33,11 +33,10 @@
 </head>
 
 <body>
-    <header class="md:container md:mx-auto">
-        <!-- rinterio section -->
+    <header class="md:container md:mx-auto bg-stone-50">
         <nav>
-            <div class="navbar bg-slate-100">
-                <div class="flex-1 space-x-1 px-8">
+            <div class="navbar px-10">
+                <div class="flex-1 ml-8 space-x-1">
                     <i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-book-primary text-black p-1 "></i>
                     <a class="font-bold text-xl">Rinterio</a>
                 </div>
@@ -70,22 +69,37 @@
                 </div>
             </div>
         </nav>
+        <!-- banner section -->
+         <div class="mt-12 justify-center p-10">
+            <!-- image div -->
+            <div class="justify-center mx-auto md:w-1/3">
+                <img class="w-full h-full" src="assets/banner.png" alt="">
+            </div>
+            <!-- content div -->
+            <div class="text-center md:w-3/4 mx-auto mt-10">
+                <h1 class="text-5xl lg:text-6xl font-bold">A barn house of this design has a striking appearance</h1>
+                <p class="text-gray-500 mt-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="mt-6">
+                    <button class="btn bg-lime-200 px-5 py-2 rounded-full font-bold">View Details<i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-book-primary text-black p-1 "></i></button>
+                </div>
+            </div>
+         </div>
     </header>
     <!-- main section -->
     <main class="md:container md:mx-auto">
         <!-- design section -->
-        <section class="mt-12 relative bg-slate-100">
-            <img class="absolute mt-8 ml-5" src="assets/Vector.png" alt="">
-            <div class="md:flex p-12 lg:space-x-2">
+        <section class="relative bg-slate-100">
+            <img class="absolute mt-8 ml-6" src="assets/Vector.png" alt="">
+            <div class="md:flex lg:space-x-2 p-12">
                 <!-- card -->
-                <div class="p-10">
+                <div class="p-10 w-1/2">
                     <button class="bg-white rounded-full px-5 text-sm py-1"><i
                             class="fa-solid fa-arrow-right text-black"></i>About Us</button>
                     <h1 class="text-4xl font-bold mt-5">We design thoughtful, <br> liveable spaces</h1>
                     <p class="text-gray-700 mt-5">The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     <!-- card-1 -->
-                    <div class="flex p-5 rounded-lg bg-white space-x-5 mt-5">
+                    <div class="flex p-5 rounded-lg bg-white space-x-5 mt-10">
                         <div>
                             <img src="assets/commercial.png" alt="">
                         </div>
@@ -95,7 +109,7 @@
                         </div>
                     </div>
                     <!-- card-2 -->
-                    <div class="flex p-5 rounded-lg bg-white space-x-5 mt-5">
+                    <div class="flex p-5 rounded-lg bg-white space-x-5 mt-6">
                         <div>
                             <img src="assets/residential.png" alt="">
                         </div>
@@ -106,22 +120,22 @@
                     </div>
                 </div>
                 <!-- image -->
-                <div class="mt-5">
-                    <img class="w-full h-full " src="assets/Rectangle.png" alt="">
+                <div class="w-1/2 p-12">
+                    <img class="w-full h-full" src="assets/Rectangle.png" alt="">
                 </div>
             </div>
         </section>
 <!-- work section -->
- <section class="mt-12  bg-slate-100">
+ <section class="bg-slate-100">
     <div class="p-12">
-        <div class="text-center">
+        <div class="text-center mt-5">
             <button class="bg-white rounded-full px-5 text-sm py-1"><i
                 class="fa-solid fa-arrow-right text-black"></i>How we works</button>
                 <h1 class="text-4xl font-bold mt-5">Our Works Process</h1>
                 <p class="text-gray-700 w-3/5 mx-auto mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
                 <!-- work card -->
-                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:flex mt-5">
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:flex mt-10">
                     <!-- work card 1 -->
                     <div class="bg-pink-200 p-10 rounded-lg"> 
                         <img src="assets/concept.png" alt="">
@@ -232,8 +246,8 @@
                     <div>
                         <p class="text-gray-500 mt-5 w-3/5 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     </div>
-                    <div class="navbar-center mt-5 justify-center items-center lg:flex">
-                        <ul class="flex flex-col md:flex-row md:space-x-10">
+                    <div class="navbar-center justify-center mt-5 lg:flex">
+                        <ul class="flex justify-center flex-col md:flex-row md:space-x-10">
                             <li><a class="text-gray-400">Home</a></li>
                             <li><a class="text-gray-400">Services</a></li>
                             <li><a class="text-gray-400">Portfolio</a></li>
